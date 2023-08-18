@@ -2,7 +2,6 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 import ru.netology.data.UserData;
 import ru.netology.page.LoginPage;
-import ru.netology.page.VerificationPage;
 
 import ru.netology.data.SQL_Helper;
 import static com.codeborne.selenide.Selenide.*;
@@ -11,7 +10,7 @@ public class BankAppTest {
 
     @AfterAll
     static void tearDown(){
-        //SQL_Helper.cleanData();
+        SQL_Helper.cleanData();
     }
 
     @Test

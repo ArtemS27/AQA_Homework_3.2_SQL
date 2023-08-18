@@ -25,8 +25,4 @@ public class LoginPage {
     public void findErrorMessage(){
         notificationMessage.shouldBe(Condition.visible);
     }
-
-    public void returnToMainPage(){
-        mainPage.shouldBe(Condition.visible);
-    }
 }
